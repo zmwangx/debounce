@@ -45,7 +45,7 @@ func ExampleThrottle() {
 		sync()
 	}
 
-	time.Sleep(300 * time.Millisecond)
+	time.Sleep(500 * time.Millisecond)
 	fmt.Printf("synced %d times\n", count)
 	// Output: syncing after 0.0s
 	// syncing after 0.5s
